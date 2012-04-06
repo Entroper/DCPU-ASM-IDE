@@ -33,5 +33,25 @@ namespace DCPU_16.ASM
 				return opValueB;
 			}
 		}
+
+		public void Parse(string instructionText)
+		{
+			throw new NotImplementedException();
+		}
+
+		public void Parse(short[] instructionBinary, short index)
+		{
+			throw new NotImplementedException();
+		}
+
+		public override string ToString()
+		{
+			throw new NotImplementedException();
+		}
+
+		public short[] ToBinary()
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
